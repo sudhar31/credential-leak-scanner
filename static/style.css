@@ -1,0 +1,104 @@
+body{
+    background: linear-gradient(135deg,#020617,#0f172a);
+    font-family: "Segoe UI", sans-serif;
+    color:white;
+}
+
+.loading-message{
+    display:none;
+    margin-top:15px;
+    color:#38bdf8;
+    font-weight:500;
+    text-align:center;
+}
+
+.main-container{
+    margin-top:120px;
+}
+
+.scanner-card{
+    background:#111827;
+    border-radius:16px;
+    padding:40px;
+}
+
+.title{
+    color:#38bdf8;
+    font-weight:600;
+}
+
+.subtitle{
+    color:#94a3b8;
+}
+
+.scan-btn{
+    background:#38bdf8;
+    border:none;
+}
+
+.scan-btn:hover{
+    background:#0ea5e9;
+}
+
+.risk-card{
+    margin-top:20px;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.high-risk{
+    background:#7f1d1d;
+}
+
+.safe{
+    background:#064e3b;
+}
+
+.risk-badge{
+    display:inline-block;
+    margin-top:8px;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+}
+
+.risk-badge.high{
+    background:#ef4444;
+}
+
+.risk-badge.safe{
+    background:#10b981;
+}
+
+.breach-container{
+    margin-top:20px;
+    max-height:300px;
+    overflow-y:auto;
+}
+
+.breach-list{
+    color: #fafafa;
+    list-style:none;
+    padding:0;
+}
+
+.text-white {
+    color: #fafafa;
+}
+
+.security-tips{
+    background:#020617;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #1e293b;
+}
+
+.breach-item{
+    background:#020617;
+    border:1px solid #1e293b;
+    padding:10px;
+    margin-bottom:8px;
+    border-radius:6px;
+}
